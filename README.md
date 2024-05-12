@@ -4,11 +4,11 @@ This is a Ruby implementation of finding the shortest path for a chess knight fr
 
 ## Usage
 
-To find the shortest path for a knight on a chessboard, call the find_shortest_path method with the starting square position and destination square position as parameters.
+To find the shortest path for a knight on a chessboard, call the knight_moves method with the starting square position and destination square position as parameters.
 Example usage:
 
 ```ruby
-find_shortest_path([0,0],[7,7])
+knight_moves([0,0],[7,7])
 ```
 
 This will output the shortest path and the number of moves it took for the knight to reach the destination square.
